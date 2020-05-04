@@ -1,0 +1,35 @@
+
+// 公共样式
+* {
+    // color: rgb(51, 51, 51);
+}
+.clear {
+    overflow: hidden;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.flex {
+    display: flex;
+}
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+$secTheme: rgb(153, 153, 153);
+.layout-content-main {
+    padding: 30px;
+}
+.ivu-layout-sider{
+    min-height: 100vh;
+}
+
+
