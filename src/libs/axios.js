@@ -90,7 +90,9 @@ class HttpRequest {
   // post请求
   post(options) {
     return new Promise((resolve, reject) => {
-      const data = options.url.includes('login') ? qs.stringify(options.data) : options.data;
+      // const data = options.url.includes('login') ? qs.stringify(options.data) : options.data;
+      const data = options.data;
+
       axios.post(options.url, data)
         .then(res => {
           resolve(res);

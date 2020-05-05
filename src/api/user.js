@@ -5,7 +5,7 @@ export const login = ({ username, password }) => {
       password,
     }
     return axios.post({
-      url:'login',
+      url:'/mock/login',
       data
     })
 

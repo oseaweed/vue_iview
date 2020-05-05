@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import *as api from "@/api/user.js";
+import * as api from "@/api/user.js";
 export default {
   components: {},
   data() {
@@ -72,10 +72,10 @@ export default {
           return;
         }
         // 登录请求
-        login(this.form).then(res => {
+        api.login(this.form).then(res => {
           if (res) {
             sessionStorage.setItem("token", res.data.access_token);
-            this.$router.push("/website");
+            this.$router.push("/");
           }
         });
       });

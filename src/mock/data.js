@@ -64,16 +64,7 @@ export const getTableData = req => {
     ]
   })
 }
-export const login = req => {
-  //请求相关的参数
-  console.log(option)
-  //模拟假数据需要重新写Mock
-  return Mock.mock({
-    status: 200,
-    message: '@cword(4,9)'
-  })
 
-}
 
 
 
