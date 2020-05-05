@@ -2,8 +2,8 @@
 
 ## Project setup
 .
-├── package-lock.json
-├── package.json
+## ├── package-lock.json
+## ├── package.json
 ├── public
 │   ├── favicon.ico
 │   └── index.html
