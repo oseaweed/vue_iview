@@ -1,11 +1,14 @@
 # vue-iview 后台管理框架
 
 ## Project setup
-.
-#### ├── package-lock.json
-#### ├── package.json
-#### ├── public
-#### │   ├── favicon.ico
+
+## Features
+
+- Login / Logout
+- package-lock.json
+- package.json
+- public
+- favicon.ico
 │   └── index.html
 ├── src
 │   ├── App.vue
