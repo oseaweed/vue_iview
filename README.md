@@ -2,10 +2,10 @@
 
 ## Project setup
 .
-## ├── package-lock.json
-## ├── package.json
-├── public
-│   ├── favicon.ico
+#### ├── package-lock.json
+#### ├── package.json
+#### ├── public
+#### │   ├── favicon.ico
 │   └── index.html
 ├── src
 │   ├── App.vue
