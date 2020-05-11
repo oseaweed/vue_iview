@@ -65,6 +65,7 @@ export default {
   },
   mounted() {},
   methods: {
+    ...mapActions(["login"]),
     handleSubmit() {
       // 表单验证
       this.$refs.loginForm.validate(valid => {
@@ -74,8 +75,8 @@ export default {
         // 登录请求
         api.login(this.form).then(res => {
           if (res) {
-            sessionStorage.setItem("token", res.data.access_token);
             this.$router.push("/");
+            sessionStorage.setItem("token", res.data.access_token);
           }
         });
       });
